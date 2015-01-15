@@ -1,4 +1,4 @@
-var app = angular.module("calculatorApplication", []).config(function ($routeProvider) {
+var app = angular.module("calculatorApplication", ["ngRoute"]).config(function ($routeProvider) {
 
     $routeProvider.when("/home", {
         templateUrl: "app/view/home.html",
